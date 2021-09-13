@@ -1,0 +1,62 @@
+*{
+    font-style:Kaisei HarunoUmi;
+    text-align: center;
+    
+  }
+  body {
+    background: #D3CCE3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  
+
+   .container{
+  /*     background-color: red; */
+      text-align: center;
+     height:45rem;
+    }
+  
+  #p-title {
+    font-style: Kaisei HarunoUmi;
+    font-size: 4rem;
+    transition: transform 200ms;
+    
+  }
+  
+  #p-title:hover {
+      transform: translateY(-10px);
+    }
+  
+  .search-country {
+    left: 0px;
+    font-size : 2.6rem;
+    margin-right: 2rem;
+    border-radius: 6px;
+    margin-bottom: 3rem;
+  }
+  
+  #btn{
+    width: 8rem;
+    font-size : 2.6rem;
+    margin-right: 2rem;
+    border-radius: 6px;
+    margin-bottom: 3rem;
+    transition: transform 200ms;
+  }
+  
+  #btn:hover {
+      background-color: #3cb371;
+      cursor: pointer;
+    }
+  
+  .flag {
+    width: 30rem;
+    border-radius: 7px;
+  }
+  
+  .details {
+    font-style: Kaisei HarunoUmi;
+    font-size: 2rem;
+    transition: transform 200ms;
+  }
